@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding: 0%;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.blog-header{
+     min-height: 50vh;
+     width: 100%; 
+    background: linear-gradient( rgba(0, 0, 0,0.7), rgba(0,0,0,0.7)),url(images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.logo-img{
+      width: 150px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+.header-links-container{
+     height: 10vh;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+
+
+
+.header-links-container a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.header-links-container a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: red;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.header-links-container a:hover::after{
+    width: 100%;
+}
+
+
+
+.header-top-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.certificate-img img{
+    width: 750px;
+}
+
+.categories-section{
+    display: flex;
+   
+    padding-top: 150px;
+    padding-left: 150px;
+}
+
+.rows{
+    
+    margin-bottom: 15px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    color: #555;
+    font-size: 18px;
+    
+    
+}
+
+.blog-right button{
+    width: 390px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border: none;
+    background: #f44336;
+    color: white;
+    font-size: 18px;
+    margin-bottom: 20px;
+
+}
+
+.blog-right{
+    padding-left: 60px;
+}
+
+
+.online-programs-section{
+    width: 720px;
+    padding-left: 150px;
+    padding-top: 40px;
+}
+
+.online-programs-section p{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(158, 156, 156);
+}
+
+.online-programs-section h2{
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+
+.comment-box{
+    border: 1px solid #ccc;
+    display: inline-flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 700px;
+    height: 380px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.comment-box input{
+    margin-bottom: 30px;
+    width: 670px;
+    background: rgb(240,240,240);
+    border: none;
+    
+}
+
+.comment-box h3{
+    margin-bottom: 20px;
+    font-size: 20px;
+    
+}
+
+.thin-input{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 8px;
+}
+
+.thick-input{
+    padding-bottom: 80px;
+    padding-left: 8px;
+    padding-top: 10px;
+}
+
+.comment-box button{
+    padding: 12px 34px;
+    border: 1px solid cornflowerblue;
+    color: cornflowerblue;;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.5s,color 0.5s;
+}
+
+.comment-box button:hover{
+    background-color:  cornflowerblue;;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.about-us{
+    padding-top: 90px;
+    text-align: center;
+    width: 1050px;
+    padding-left: 200px;
+
+}
+
+.about-us p{
+    font-size: 14px;
+    margin-top: 30px;
+    color: #777;
+}
+
+.about-us img{
+    width: 15px;
+    margin-top: 20px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
